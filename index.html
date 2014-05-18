@@ -50,7 +50,7 @@
 
 <pre><code>$ mkdir WORKING_DIR
 $ cd WORKING_DIR
-$ repo init -u git://github.com/androidarmv6/android.git -b cm-10.1
+$ repo init -u git://github.com/androidarmv6/android.git -b cm-11.0
 $ repo sync
 $ sh vendor/cm/get-prebuilts
 $ source build/envsetup.sh
@@ -74,12 +74,12 @@ Ask an owner for forking stuff for gerrit. We will be happy to oblige.</p>
 $ cd WORKING_DIR
 $ source build/envsetup.sh
 $ cd PROJECT_DIR
-$ repo start cm-10.1 .
+$ repo start cm-11.0 .
 $ ... make changes ...
 $ git add .
 $ git commit -m "Commit message"
 $ repo upload .
-$ repo abandon cm-10.1 .
+$ repo abandon cm-11.0 .
 </code></pre>
 
 <h3>
